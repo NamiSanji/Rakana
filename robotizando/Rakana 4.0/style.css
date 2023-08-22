@@ -1,0 +1,115 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+  }
+  
+  body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+    height: auto;
+  }
+  
+  .container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .container-botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+  }
+  .botao-secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+  }
+  
+  .container-aviso {
+    font-size: 20px;
+    color: var(--cinza-secundario);
+  }
+  
+  .container-titulo {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  .container-imagem {
+    margin: 1em 0 0 0;
+  }
+  
+  .container-caixa {
+    margin: 3em 6em 5em 6em;
+    grid-column: span 2 / span 2;
+  }
+
+  .cabecalho {
+    margin-bottom: 5em;
+    position: relative;
+  }
+
+  .cabecalho-texto {
+    position: absolute;
+    left: 0;
+    width: 40%;
+    text-align: left;
+  }
+
+  .cabecalho img {
+    width: 100%;
+    background-size: cover;
+    margin-left: 40px;
+  }
+  
+  .secundario-imagem {
+    width: 80%;
+  }
+  
+  .secundario {
+    align-items: center;
+    margin: 0 10em;
+  }
+  
+  .descricao-titulo {
+    font-weight: 700;
+    font-size: 70px;
+    color: var(--branco-principal);
+    margin-bottom: 0.10em;
+  }
+  
+  .descricao-texto {
+    color: var(--cinza-secundario);
+  }
+  
+  .secundario-botao {
+    display: inline-block;
+    margin-top: 1em;
+  }
+  
+  .container-descricao {
+    padding: 2em;
+  }
